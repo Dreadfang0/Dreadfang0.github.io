@@ -1,0 +1,75 @@
+body
+{
+	background-image:url("BannerBG.png");
+}
+div 
+{	
+	margin: auto;
+	width:50%;
+	
+}
+h1
+{
+	
+	text-align: center;
+	font-family: Verdana;
+}
+p
+{
+	margin: auto;
+	width: 75%;
+	font-family: Verdana;
+}
+table
+{
+	margin : auto;
+	font-family:Verdana;
+	
+}
+th,td
+{
+	padding: 10px;
+	background-color: #00264d;
+	border-style: groove;
+	border-width:2px;
+	
+}
+a:link 
+{
+	color:white;
+}
+a:visited 
+{
+	color:white;
+}
+a:hover 
+{
+	color:white;
+}
+a:active 
+{
+	color:white;
+}
+li
+{
+	margin:auto;
+	font-family: Verdana;
+	font-size: 15px;
+	border-width:2px;
+	font-weight:normal;
+}
+ul
+{
+	font-family: Verdana;
+	font-size:20px;
+	font-weight:bold;
+	border-style:hidden hidden groove groove;
+	border-width:3px;
+	border-color: #cc0000;
+}
+#FeatureList
+{
+	
+	
+	width:15%;
+}
