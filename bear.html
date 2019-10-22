@@ -3,6 +3,21 @@
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
 <body> 
 <div id = "Banner">
 <h1>Drag-a-Bear</h1>
@@ -23,7 +38,9 @@
 </div>
 <hr/>
 <div>
-<!--Insert Draggable bear image here-->
+	<img id="dragABear" src="unbearable.png" draggable="true" ondragstart="drag(event)">
+	<div id="bearTarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+	</div>
 </div>
 </br>
 <hr/>

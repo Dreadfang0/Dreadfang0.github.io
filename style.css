@@ -1,6 +1,7 @@
 body
 {
 	background-image:url("BannerBG.png");
+	z-index:-20;
 }
 div 
 {	
@@ -72,4 +73,17 @@ ul
 	
 	
 	width:15%;
+}
+#bearTarget
+{
+	padding:70px,0;
+	overflow:auto;
+	width:500px;
+	height:350px;
+	border-width:2px;
+	border-style:solid;
+}
+#dragABear
+{
+	
 }
