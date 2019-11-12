@@ -19,32 +19,32 @@ function drop(ev) {
 }
 </script>
 <body> 
-<div id = "Banner">
-<h1>Drag-a-Bear</h1>
-</br>
-<table>
-	<tr>
-		<td>
-		<a href="index.html">Home Page</a> 
-		</td>
-		<td>
-		<a href="feedback.html">Feedback</a> 
-		</td>
-		<td>
-		<a href="bear.html">A Bear</a> 
-		</td>
-	</tr>
-</table>
-</div>
-<hr/>
-<div>
-	<img id="dragABear" src="unbearable.png" draggable="true" ondragstart="drag(event)">
-	<div id="bearTarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+	<div id = "Banner">
+		<h1>Drag-a-Bear</h1>
+		</br>
+		<table>
+			<tr>
+				<td>
+					<a href="index.html">Home Page</a> 
+				</td>
+				<td>
+					<a href="feedback.html">Feedback</a> 
+				</td>
+				<td>
+					<a href="bear.html">A Bear</a> 
+				</td>
+			</tr>
+		</table>
 	</div>
-</div>
-</br>
-<hr/>
-</br>
+	<hr/>
+	<div>
+		<img id="dragABear" src="Images/unbearable.png" draggable="true" ondragstart="drag(event)">
+		<div id="bearTarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+		</div>
+	</div>
+	</br>
+	<hr/>
+	</br>
 
 </body> 
 </html>

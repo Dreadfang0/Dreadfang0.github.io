@@ -1,6 +1,6 @@
 body
 {
-	background-image:url("BannerBG.png");
+	background-image:url("Images/BannerBG.png");
 	z-index:-20;
 }
 div 
@@ -72,7 +72,7 @@ ul
 {
 	
 	
-	width:15%;
+	width:40%;
 }
 #bearTarget
 {
