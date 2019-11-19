@@ -68,6 +68,10 @@ ul
 	border-width:3px;
 	border-color: #cc0000;
 }
+iframe
+{
+	
+}
 #FeatureList
 {
 	
@@ -83,7 +87,8 @@ ul
 	border-width:2px;
 	border-style:solid;
 }
-#dragABear
+#Locator
 {
+	height:150px;
 	
 }
