@@ -1,51 +1,156 @@
-<!DOCTYPE html> 
+﻿<!DOCTYPE html> 
 <html> 
-<title>a Discord bot</title>
+
 <head>
+	<title>Janne Karhu | Homepage</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Varela+Round" rel="stylesheet">
+
+
 </head>
 <body> 
-	<div id = "Banner">
-		<h1>BotBear Home</h1>
-		</br>
-		<table>
-			<tr>
-				<td>
-				<a href="index.html">Home Page</a> 
-				</td>
-				<td>
-				<a href="feedback.html">Feedback</a> 
-				</td>
-				<td>
-				<a href="bear.html">A Bear</a> 
-				</td>
-			</tr>
-		</table>
+
+    <div class="w3-bar" id="myNavbar">
+        <a class="w3-bar-item w3-button w3-hover-white w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+            ☰
+        </a>
+        <a href="#home" class="w3-bar-item w3-button">HOME</a>
+        <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"> PROJECTS</a>
+        
+    </div>
+	<div id="home" class="bgimg-1 w3-display-container w3-opacity-min">
+		<div class="w3-display-center" style="white-space:nowrap; Margin-left: 20px;">
+			<h1 style="text-align: center;">
+				Janne Karhu
+			</h1>
+			<h2 style="text-align: center;">
+				Game Programmer
+			</h2>
+			<h4 style="text-align: center;">
+			About me:
+			</h4>
+				<ul style="text-align: center;">
+					<p style="text-align: center;">
+						
+					</p>
+				</ul>
+			<h4 style="text-align: center;">
+			Education:
+			</h4>
+				<ul style="text-align: center;">
+					<li>Bachelor's Degree in Business Information Technology<br>
+						<i>Kajaani University of Applied Sciences</i>, 2018 - present
+					</li>
+				</ul>
+			<h4 style="text-align: center;">Languages & Software:</h4>
+				<ul style="text-align: center;">
+					<li>C#, Git, Unity, Unreal Engine, SVN, FMOD</li>
+				</ul>
+			<h4 style="text-align: center;">Other skills:</h4>
+				<ul style="text-align: center;">
+					<li>QA, HacknPlan, Trello</li>
+				</ul>
+		</div>
 	</div>
-	<hr/>
-	<div>
-		<p>
-			What is BotBear?
-		</br>
-			BorBear is school project that I decided to make for my own use.
-		</br>
-			Please don't use it.
-		</p>
+	
+    
+
+    <div id="portfolio" class="w3-content w3-container w3-padding-64">
+	
+		<h3 class="w3-center">Projects</h3>
+
+
+		<div class="w3-row-padding w3-center">
+			<div class="w3-col m6 w3-margin-bottom">
+
+				<a href="Images/H8ful.png"> 
+					<img src="Images/H8ful.png" class="w3-hover-opacity pitem">
+				</a>
+
+				<h3>H8FUL</h3>
+				<p>A Retrofuturistic Top-down shooter in which the player character is looking for his head through a variety of different buildings, after it swapped with an animal head.</p>
+				<p>In this project I was mainly working on particle effects and shaders. I was also testing for bugs alongside working on audio effects and  also made some minor features</p>
+				<p>
+					Made with Unreal Engine 4.
+				</p>
+			</div>
+
+			<div class="w3-col m6 w3-margin-bottom">
+				<a href="Images/AugurOfLight.png">
+					<img src="Images/AugurOfLight.png" class="w3-hover-opacity pitem">
+				</a>
+				<h3>Augur of Light</h3>
+				<p>
+					Augur of Light is a 1st person puzzle game, where you adventure in a Finnish island solving puzzles. During the first wave of covid-19 in Finland, we made this game as a school project about coping mechanisms for depression. We worked together with mental industry professionals.
+				</p>
+				<p>
+					I was mainly working on prototyping different puzzles and implementing them. I also worked on the particle effects.
+				</p>
+				<p>
+					The game can be found <a href = "https://kim-k1mpp4-kupiainen.itch.io/augur-of-light">HERE</a></p>
+				<p>
+					Made with Unity.
+				</p>
+			</div>
+		</div>
+		<div class="w3-row-padding w3-center">
+			<div class="w3-col m6 w3-margin-bottom">
+				<a href="Images/ValhallaCannon.png">
+					<img src="Images/ValhallaCannon.png" class="w3-hover-opacity pitem">
+				</a>
+				<h3>Valhalla Cannon</h3>
+				<p>
+					A project made on URHO3D with C++ for Android phones. Valhalla Cannon is an Angry birds like puzzle game where you shoot vikings from a cannon at different obstacles.
+				</p>
+				<p>
+					I was mainly working on UI as the URHO3D editor was not really that good at anything, everything had to be placed via code. I also worked on implementing puzzles.
+				</p>
+				<p>
+					Source code of Valhalla Cannon <a href = "https://github.com/GastaGaming/ValhallaCannon/">HERE</a>
+					Made with URHO3D.
+				</p>
+			</div>
+			
+			<div class="w3-col m6 w3-margin-bottom">
+				<a href="Images/SkeltalGame.png">
+					<img src="Images/SkeltalGame.png" class="w3-hover-opacity pitem">
+				</a>
+				<h3>Skeltal game</h3>
+				<p>
+					A project made for a summer course in 2019, where you shoot skeletons with a crossbow made out of bones in the wine cellar of a necromancer who happens to be your master. The game took part in Assembly Summer 2019's game dev competition.
+				</p>
+				<p>
+					I mainly worked on the AI but I also dabbled a little on the VFX side.
+				</p>
+				<p>
+					The game can be downloaded <a href = "https://t.co/7nVGLa5liR">HERE</a>
+					Made with Unity.
+				</p>
+			</div>
+
+			<div class="w3-col m6 w3-margin-bottom">
+				
+				<h3>Game Jams</h3>
+				<p>
+					I have participated in several game jams since 2015.
+				</p>
+				<p>
+					GGJ submissions: <a href = "https://globalgamejam.org/users/dreadfang"> HERE </a>
+				</p>
+			</div>
+		</div>
+
+		
+
+		
+
+		
 	</div>
-	</br>
-	<hr/>
-	</br>
-	<div id ="FeatureList">
-		<ul> Feature List
-			<li>Rolls hundreds of dice  </li>
-			<li>Adds the dice together for you</li>
-		</ul>
-	</div>
-	<div>
-	<iframe width="100%" height="500px"
-		src="https://www.youtube.com/embed/54CDgurNMSI">
-	</iframe> 
-	</div>
+
 	
 </body> 
 </html>
